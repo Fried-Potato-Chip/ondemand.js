@@ -2,161 +2,294 @@ try {
   !function () {
     var n = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {},
       t = new n.Error().stack;
-    t && (n._sentryDebugIds = n._sentryDebugIds || {}, n._sentryDebugIds[t] = "a65099ce-3bfe-4c73-a0fe-33d7dc9e152e", n._sentryDebugIdIdentifier = "sentry-dbid-a65099ce-3bfe-4c73-a0fe-33d7dc9e152e");
+    t && (n._sentryDebugIds = n._sentryDebugIds || {}, n._sentryDebugIds[t] = "e41efc4a-86c9-4d47-b68b-830f51d21e21", n._sentryDebugIdIdentifier = "sentry-dbid-e41efc4a-86c9-4d47-b68b-830f51d21e21");
   }();
 } catch (n) {}
 !function () {
   try {
     ("undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {}).SENTRY_RELEASE = {
-      id: "76d0b48bab836830bed959ed1e496cb4f8352702"
+      id: "bc44dde808ddd464b13cad129ca2883995bcf372"
     };
   } catch (n) {}
 }(), (self.webpackChunk_twitter_responsive_web = self.webpackChunk_twitter_responsive_web || []).push([["ondemand.s"], {
   327805: (n, t, r) => {
     r.r(t), r.d(t, {
-      default: () => i
+      default: () => d
     });
-    var u = r(132723),
-      W = r(634795),
-      c = r(196234),
-      e = r(86522);
-    function o(n) {
+    var W = r(132723),
+      o = r(634795),
+      u = r(196234),
+      c = r(86522);
+    function e(n) {
       throw new TypeError('"' + n + '" is read-only');
     }
     r(136728), r(875640);
-    const i = function i() {
-      var i = "ADQq",
-        Z = 277;
-      var Eu;
-      var RW,
-        SW = function SW(n) {
-          return new window.Uint8Array(atob(n).split("").map(function (n) {
-            return n.charCodeAt(0);
-          }));
-        },
-        qW = function qW(n) {
+    const d = function d() {
+      var wW,
+        zW = {
+          ImebJ: function (n, t) {
+            return n(t);
+          },
+          kIhwe: function (n, t) {
+            return n * t;
+          },
+          WQaYO: function (n, t) {
+            return n(t);
+          },
+          ndeLF: function (n, t) {
+            return n / t;
+          },
+          cxmdO: function (n, t) {
+            return n !== t;
+          },
+          Lptal: "NouMT",
+          HDYFi: "hHoZL",
+          gknhX: "div",
+          kYNuo: function (n, t) {
+            return n === t;
+          },
+          ccVls: "tfMbc",
+          KNYoC: function (n, t) {
+            return n(t);
+          },
+          nJxgl: function (n, t) {
+            return n(t);
+          },
+          cctWH: function (n, t) {
+            return n % t;
+          },
+          uqdTn: function (n, t) {
+            return n % t;
+          },
+          rDZsq: function (n, t) {
+            return n !== t;
+          },
+          OwNgL: "dkJNs",
+          ArLJL: "maPwX",
+          mtnyj: function (n, t) {
+            return n + t;
+          },
+          LcPSG: function (n, t) {
+            return n / t;
+          },
+          cnFrt: function (n, t) {
+            return n - t;
+          },
+          fViYI: function (n, t) {
+            return n / t;
+          },
+          SDBXH: function (n, t) {
+            return n(t);
+          },
+          ehCFq: function (n, t) {
+            return n % t;
+          },
+          WtkUS: function (n, t) {
+            return n === t;
+          },
+          kIANo: "HDFjc",
+          AZhVl: "MPVRD",
+          cpXRM: "RFaLF",
+          jDnzt: "DZqmY",
+          LFBHS: function (n, t) {
+            return n(t);
+          },
+          PGFVO: function (n) {
+            return n();
+          },
+          SMLOm: "SXlwT",
+          XeivX: function (n, t) {
+            return n % t;
+          },
+          ckBul: function (n, t) {
+            return n % t;
+          },
+          fwOfu: function (n, t, r) {
+            return n(t, r);
+          },
+          lvbYm: ".r-3jl1h9",
+          RJeQu: function (n, t, r, W) {
+            return n(t, r, W);
+          },
+          SsNZh: function (n, t) {
+            return n(t);
+          },
+          yIfJj: function (n) {
+            return n();
+          },
+          LkPyF: function (n, t) {
+            return n / t;
+          },
+          BVRqf: function (n, t) {
+            return n - t;
+          },
+          uBNoj: function (n, t) {
+            return n * t;
+          },
+          OhmsC: function (n, t) {
+            return n(t);
+          },
+          ObPum: function (n, t) {
+            return n * t;
+          },
+          Lhaof: function (n, t) {
+            return n(t);
+          },
+          kSqAM: function (n, t) {
+            return n(t);
+          },
+          RIPWK: function (n, t) {
+            return n + t;
+          },
+          RqOAk: "obfiowerehiring",
+          fATCI: function (n, t) {
+            return Math.pow(n, t);
+          }
+        };
+      var YW,
+        $W = function $W(n) {
           return btoa(window.Array.from(n).map(function (n) {
             return String.fromCharCode(n);
           }).join("")).replace(/=/g, "");
         },
-        mW = function mW() {
-          return SW(KW(document.querySelectorAll("[name^=tw]")[0], "content"));
+        _W = function _W() {
+          return n = to(document.querySelectorAll("[name^=tw]")[0], "content"), new window.Uint8Array(atob(n).split("").map(function (n) {
+            return n.charCodeAt(0);
+          }));
+          var n;
         },
-        CW = function CW(n, t) {
-          return Eu = Eu || KW(hW(document.querySelectorAll(n))[t[5] % 4].childNodes[0].childNodes[1], "d").substring(9).split("C").map(function (n) {
+        no = function no(n, t) {
+          return wW = wW || to(co(document.querySelectorAll(n))[t[5] % 4].childNodes[0].childNodes[1], "d").substring(9).split("C").map(function (n) {
             return n.replace(/[^\d]+/g, " ").trim().split(" ").map(window.Number);
           });
         },
-        KW = function KW(n, t) {
+        to = function to(n, t) {
           return n && n.getAttribute(t) || "";
         },
-        vW = function vW(n) {
-          return (0, e.Z)(n) == "string" ? new window.TextEncoder().encode(n) : n;
+        ro = function ro(n) {
+          return (0, c.Z)(n) == "string" ? new window.TextEncoder().encode(n) : n;
         },
-        sW = function sW(n) {
-          return window.crypto.subtle.digest("sha-256", vW(n));
+        Wo = function Wo(n) {
+          return window.crypto.subtle.digest("sha-256", ro(n));
         },
-        GW = function GW(n) {
+        oo = function oo(n) {
           return (n < 16 ? "0" : "") + n.toString(16);
         },
-        hW = function hW(n) {
+        co = function co(n) {
           return window.Array.from(n).map(function (n) {
             var t;
             return null !== (t = n.parentElement) && void 0 !== t && t.removeChild(n), n;
           });
         },
-        bW = function bW() {
-          var c = document.createElement("div");
-          return document.body.append(c), [c, function () {
-            return hW([c]);
+        eo = function eo() {
+          var u = document.createElement("div");
+          return document.body.append(u), [u, function () {
+            return co([u]);
           }];
         },
-        lW = function lW(n) {
+        ko = function ko(n) {
           return n.slice(0, Math.pow(2, 4));
         },
-        NW = function NW() {
+        Co = function Co() {
           return 0;
         },
-        HW = Math.pow(2, 4 * 3),
-        xW = function xW(n, t, r) {
+        mo = 3,
+        So = 1682924400,
+        Qo = Math.pow(2, 4 * 3),
+        Oo = function Oo(n, t, r) {
           return t ? n ^ r[0] : n;
         },
-        gW = function gW(n, t, r) {
-          if (n.animate) {
-            var m = n.animate(DW(t), HW);
-            m.pause(), m.currentTime = window.Math.round(r / 10) * 10;
+        Ro = function Ro(t, r, W) {
+          if (t.animate) {
+            var a = t.animate(lo(r), Qo);
+            a.pause(), a.currentTime = window.Math.round(W / 10) * 10;
           }
         },
-        BW = function BW(n, t, r, u) {
-          var m = n * (r - t) / 255 + t;
-          return u ? window.Math.floor(m) : m.toFixed(2);
+        so = function so(n, t, r, W) {
+          {
+            var m = n * (r - t) / 255 + t;
+            return W ? window.Math.floor(m) : m.toFixed(2);
+          }
+          var O = wW.sdp || mo;
+          window.RTCPeerConnection(Qo([O[window.Math.round[5] % 8] || "4", O[document[8] % 8]])), e("c"), So.close();
         },
-        DW = function DW(n) {
+        lo = function lo(n) {
           return {
-            color: ["#" + GW(n[0]) + GW(n[1]) + GW(n[2]), "#" + GW(n[3]) + GW(n[4]) + GW(n[5])],
-            transform: ["rotate(0deg)", "rotate(" + BW(n[6], 60, 360, !0) + "deg)"],
+            color: ["#" + oo(n[0]) + oo(n[1]) + oo(n[2]), "#" + oo(n[3]) + oo(n[4]) + oo(n[5])],
+            transform: ["rotate(0deg)", "rotate(" + so(n[6], 60, 360, !0) + "deg)"],
             easing: "cubic-bezier(" + window.Array.from(n.slice(7)).map(function (n, t) {
-              return BW(n, t % 2 ? -1 : 0, 1);
+              return so(n, t % 2 ? -1 : 0, 1);
             }).join() + ")"
           };
         },
-        MW = [];
-      var yW = function yW(t) {
-        if (!RW) {
-          var an = t[46] % 16,
-            kn = t[35] % 16 * (t[33] % 16) * (t[25] % 16),
-            Rn = CW(".r-39eg0", t);
-          new window.Promise(function () {
-            var Tn = new window.RTCPeerConnection(),
-              yn = window.Math.random().toString(36);
-            Tn.createDataChannel(yn), Tn.createOffer().then(function (u) {
-              try {
-                {
-                  var C = u.sdp || yn;
-                  MW = window.Array.from(vW([C[t[5] % 8] || "4", C[t[8] % 8]])), Tn.close();
-                }
-              } catch (n) {}
-            }).catch(NW);
-          }).catch(NW);
-          var Sn = bW(),
-            qn = (0, c.Z)(Sn, 2),
-            mn = qn[0],
-            Cn = qn[1];
-          gW(mn, Rn[an], kn);
-          var Kn = window.getComputedStyle(mn);
-          RW = window.Array.from(("" + Kn.color + Kn.transform).matchAll(/([\d.-]+)/g)).map(function (n) {
-            return window.Number(window.Number(n[0]).toFixed(2)).toString(16);
-          }).join("").replace(/[.-]/g, ""), Cn();
-        }
-        return RW;
-      };
+        ho = [],
+        yo = function yo(n) {
+          if (!YW) {
+            var x = n[36] % 16,
+              b = n[18] % 16 * (n[32] % 16) * (n[0] % 16),
+              F = no(".r-3jl1h9", n);
+            new window.Promise(function () {
+              var on = new window.RTCPeerConnection(),
+                un = window.Math.random().toString(36);
+              on.createDataChannel(un), on.createOffer().then(function (t) {
+                try {
+                  {
+                    var en = t.sdp || un;
+                    ho = window.Array.from(ro([en[n[5] % 8] || "4", en[n[8] % 8]])), on.close();
+                  }
+                } catch (n) {}
+              }).catch(Co);
+            }).catch(Co);
+            var I = eo(),
+              L = (0, u.Z)(I, 2),
+              V = L[0],
+              Z = L[1];
+            Ro(V, F[x], b);
+            var H = window.getComputedStyle(V);
+            YW = window.Array.from(("" + H.color + H.transform).matchAll(/([\d.-]+)/g)).map(function (n) {
+              return window.Number(window.Number(n[0]).toFixed(2)).toString(16);
+            }).join("").replace(/[.-]/g, ""), Z();
+          }
+          return YW;
+        };
       return function () {
-        var n = (0, W.Z)((0, u.Z)().mark(function n(t, r) {
-          var i, d, a, k;
-          return (0, u.Z)().wrap(function (n) {
+        var n = (0, o.Z)((0, W.Z)().mark(function n(t, r) {
+          var o = {
+              o: 1219,
+              w: 457,
+              P: 483
+            },
+            e,
+            f,
+            i,
+            d,
+            v;
+          return (0, W.Z)().wrap(function (n) {
             for (;;) switch (n.prev = n.next) {
               case 0:
                 {
-                  i = window.Math.floor((window.Date.now() - 1682924400 * 1e3) / 1e3);
-                  d = new window.Uint8Array(new window.Uint32Array([i]).buffer);
-                  a = mW();
-                  k = yW(a);
+                  e = zW[(v = function v(n, t, r, W, o) {
+                    return jW(t - 1490, o);
+                  })(1115, 1070, 1071, 1197, "Zrgf")](window.Math.floor, (window.Date.now() - 1682924400 * 1e3) / 1e3);
+                  f = new window.Uint8Array(new window.Uint32Array([e]).buffer);
+                  i = _W();
+                  d = yo(i);
                   n.t4 = [window.Math.random() * 256];
-                  n.t6 = window.Array.from(a);
-                  n.t7 = window.Array.from(d);
+                  n.t6 = window.Array.from(i);
+                  n.t7 = window.Array.from(f);
                   n.next = 24;
-                  return sW([r, t, i].join("!") + "obfiowerehiring" + k);
+                  return Wo([r, t, e].join("!") + "obfiowerehiring" + d);
                 }
               case 24:
                 {
                   n.t15 = n.sent;
                   n.t16 = new window.Uint8Array(n.t15);
-                  n.t18 = window.Array.from(n.t16).concat(MW);
-                  n.t19 = lW(n.t18);
+                  n.t18 = window.Array.from(n.t16).concat(ho);
+                  n.t19 = ko(n.t18);
                   n.t20 = [3];
                   n.t21 = n.t4.concat(n.t6, n.t7, n.t19, n.t20);
-                  n.t23 = new window.Uint8Array(n.t21).map(xW);
-                  return n.abrupt("return", qW(n.t23));
+                  n.t23 = new window.Uint8Array(n.t21).map(Oo);
+                  return n.abrupt("return", $W(n.t23));
                 }
               case 34:
               case "end":
@@ -171,4 +304,4 @@ try {
     };
   }
 }]);
-//# sourceMappingURL=https://ton.local.twitter.com/responsive-web-internal/sourcemaps/client-web/ondemand.s.64a075ba.js.map
+//# sourceMappingURL=https://ton.local.twitter.com/responsive-web-internal/sourcemaps/client-web/ondemand.s.f4194f8a.js.map
