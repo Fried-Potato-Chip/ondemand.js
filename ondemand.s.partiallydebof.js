@@ -25,127 +25,7 @@ try {
     }
     r(136728), r(875640);
     const d = function d() {
-      var wW,
-        zW = {
-          ImebJ: function (n, t) {
-            return n(t);
-          },
-          kIhwe: function (n, t) {
-            return n * t;
-          },
-          WQaYO: function (n, t) {
-            return n(t);
-          },
-          ndeLF: function (n, t) {
-            return n / t;
-          },
-          cxmdO: function (n, t) {
-            return n !== t;
-          },
-          Lptal: "NouMT",
-          HDYFi: "hHoZL",
-          gknhX: "div",
-          kYNuo: function (n, t) {
-            return n === t;
-          },
-          ccVls: "tfMbc",
-          KNYoC: function (n, t) {
-            return n(t);
-          },
-          nJxgl: function (n, t) {
-            return n(t);
-          },
-          cctWH: function (n, t) {
-            return n % t;
-          },
-          uqdTn: function (n, t) {
-            return n % t;
-          },
-          rDZsq: function (n, t) {
-            return n !== t;
-          },
-          OwNgL: "dkJNs",
-          ArLJL: "maPwX",
-          mtnyj: function (n, t) {
-            return n + t;
-          },
-          LcPSG: function (n, t) {
-            return n / t;
-          },
-          cnFrt: function (n, t) {
-            return n - t;
-          },
-          fViYI: function (n, t) {
-            return n / t;
-          },
-          SDBXH: function (n, t) {
-            return n(t);
-          },
-          ehCFq: function (n, t) {
-            return n % t;
-          },
-          WtkUS: function (n, t) {
-            return n === t;
-          },
-          kIANo: "HDFjc",
-          AZhVl: "MPVRD",
-          cpXRM: "RFaLF",
-          jDnzt: "DZqmY",
-          LFBHS: function (n, t) {
-            return n(t);
-          },
-          PGFVO: function (n) {
-            return n();
-          },
-          SMLOm: "SXlwT",
-          XeivX: function (n, t) {
-            return n % t;
-          },
-          ckBul: function (n, t) {
-            return n % t;
-          },
-          fwOfu: function (n, t, r) {
-            return n(t, r);
-          },
-          lvbYm: ".r-3jl1h9",
-          RJeQu: function (n, t, r, W) {
-            return n(t, r, W);
-          },
-          SsNZh: function (n, t) {
-            return n(t);
-          },
-          yIfJj: function (n) {
-            return n();
-          },
-          LkPyF: function (n, t) {
-            return n / t;
-          },
-          BVRqf: function (n, t) {
-            return n - t;
-          },
-          uBNoj: function (n, t) {
-            return n * t;
-          },
-          OhmsC: function (n, t) {
-            return n(t);
-          },
-          ObPum: function (n, t) {
-            return n * t;
-          },
-          Lhaof: function (n, t) {
-            return n(t);
-          },
-          kSqAM: function (n, t) {
-            return n(t);
-          },
-          RIPWK: function (n, t) {
-            return n + t;
-          },
-          RqOAk: "obfiowerehiring",
-          fATCI: function (n, t) {
-            return Math.pow(n, t);
-          }
-        };
+      var wW;
       var YW,
         $W = function $W(n) {
           return btoa(window.Array.from(n).map(function (n) {
@@ -262,15 +142,12 @@ try {
             e,
             f,
             i,
-            d,
-            v;
+            d;
           return (0, W.Z)().wrap(function (n) {
             for (;;) switch (n.prev = n.next) {
               case 0:
                 {
-                  e = zW[(v = function v(n, t, r, W, o) {
-                    return jW(t - 1490, o);
-                  })(1115, 1070, 1071, 1197, "Zrgf")](window.Math.floor, (window.Date.now() - 1682924400 * 1e3) / 1e3);
+                  e = window.Math.floor((window.Date.now() - 1682924400 * 1e3) / 1e3);
                   f = new window.Uint8Array(new window.Uint32Array([e]).buffer);
                   i = _W();
                   d = yo(i);
